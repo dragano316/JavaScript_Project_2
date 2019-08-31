@@ -142,6 +142,12 @@ else{
 
 
 
+
+
+
+
+
+
 var UIController=(function() {
 	// body...
 	var DOMstrings={
@@ -293,6 +299,25 @@ var UIController=(function() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 var controller=(function(budgetctrl,uictrl) {
 	// body...
 	var setupEventListeners=function() {
@@ -389,4 +414,4 @@ uictrl.displaypercentages(percentages);
 })(budgetController,UIController);
 
 
-controller.init();   
+controller.init();
